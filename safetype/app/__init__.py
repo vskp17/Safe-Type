@@ -1,0 +1,3 @@
+"""
+SafeType Dashboard Application Package
+"""
