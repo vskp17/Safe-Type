@@ -1,9 +1,14 @@
 # SafeType: A Privacy-Preserving Defensive Framework for Detecting Unauthorized Input Monitoring
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://safe-type.streamlit.app)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Framework: SafeType](https://img.shields.io/badge/SafeType-Defensive--Security-cyan.svg)](https://github.com/safetype/safetype)
+[![Framework: SafeType](https://img.shields.io/badge/SafeType-Defensive--Security-cyan.svg)](https://github.com/vskp17/Safe-Type)
 [![Tests: 21 Passed](https://img.shields.io/badge/tests-21%20passed-brightgreen.svg)](tests/)
+
+---
+
+> 🚀 **Live Streamlit App**: [https://safe-type.streamlit.app](https://safe-type.streamlit.app)
 
 ---
 
