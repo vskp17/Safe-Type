@@ -7,10 +7,13 @@ Integrated with Process Quarantine, HTML/PDF Incident Reports, and Network Telem
 import json
 import logging
 from datetime import datetime, timezone
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure repository root is on sys.path for Streamlit Cloud deployment
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 from safetype.config import DEFAULT_DB_PATH, SEVERITY_COLORS
 from safetype.db.database import Database
